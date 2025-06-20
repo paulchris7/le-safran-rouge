@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Le Safran Rouge - Marrakech</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Tajine_icon.png/64px-Tajine_icon.png">
+  <script defer src="scripts.js"></script>
+</head>
+
+<body>
+  <header id="hero">
+    <div class="hero-content">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Safran_logo_fictionnel.png/150px-Safran_logo_fictionnel.png" alt="Logo Le Safran Rouge" class="logo-header">
+      <h1>Le Safran Rouge</h1>
+      <p>Saveurs traditionnelles et ambiance moderne au cœur de Marrakech</p>
+      <a href="#reservation" class="btn">Réserver une table</a>
+    </div>
+  </header>
+
+  <nav>
+    <div class="nav-container">
+      <div class="logo-text">Le Safran Rouge</div>
+      <button class="burger" aria-label="Toggle navigation">☰</button>
+      <div class="nav-links">
+        <a href="#about">À propos</a>
+        <a href="#menu">Menu</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#reservation">Réservation</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>À propos</h2>
+      <p>
+        Situé au cœur de Marrakech, notre restaurant vous invite à une expérience culinaire inoubliable mêlant tradition marocaine et touches modernes. Profitez d'un décor enchanteur, d'une terrasse ensoleillée, et d'une cuisine maison pleine de saveurs.
+      </p>
+    </section>
+
+    <section id="menu">
+      <h2>Notre Menu</h2>
+      <div class="menu">
+        <div class="menu-item">
+          <h3>Tajine d'agneau aux pruneaux</h3>
+          <p>Un classique marocain mijoté avec des épices et des fruits secs.</p>
+        </div>
+        <div class="menu-item">
+          <h3>Couscous royal</h3>
+          <p>Savourez notre couscous garni d’agneau, de poulet, de merguez et de légumes.</p>
+        </div>
+        <div class="menu-item">
+          <h3>Pastilla au poulet</h3>
+          <p>Un feuilleté sucré-salé typiquement marocain, parfumé à la cannelle.</p>
+        </div>
+        <div class="menu-item">
+          <h3>Thé à la menthe</h3>
+          <p>Préparé à la manière traditionnelle, à siroter à toute heure.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="galerie">
+      <h2>Galerie</h2>
+      <div class="gallery">
+        <img src="https://source.unsplash.com/400x300/?moroccan,food" alt="plat marocain">
+        <img src="https://source.unsplash.com/400x300/?tajine" alt="tajine">
+        <img src="https://source.unsplash.com/400x300/?marrakech,restaurant" alt="restaurant">
+        <img src="https://source.unsplash.com/400x300/?couscous" alt="couscous">
+      </div>
+    </section>
+
+    <section id="reservation">
+      <h2>Réservation</h2>
+      <form class="reservation-form">
+        <input type="text" placeholder="Votre nom" required>
+        <input type="email" placeholder="Votre email" required>
+        <input type="tel" placeholder="Votre téléphone" required>
+        <input type="date" required>
+        <input type="time" required>
+        <input type="number" min="1" placeholder="Nombre de personnes" required>
+        <button type="submit">Réserver</button>
+      </form>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>📍 Médina de Marrakech, Rue des Épices<br>📞 +212 6 12 34 56 78<br>📧 contact@safranrouge.ma</p>
+      <form class="contact-form">
+        <input type="text" placeholder="Votre nom" required />
+        <input type="email" placeholder="Votre email" required />
+        <textarea rows="5" placeholder="Votre message..."></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Le Safran Rouge - Marrakech. Tous droits réservés.</p>
+  </footer>
+</body>
+
+</html>
